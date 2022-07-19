@@ -1,6 +1,6 @@
 name: Actions Workflow
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   run-github-actions:
@@ -19,4 +19,4 @@ jobs:
       - name: Simple JS Action
         uses: actions/hello-world-javascript-action@v1
         with:
-          who-to-greet: "Fran"
+          who-to-greet: "Franciele Lyrio Moraes"
