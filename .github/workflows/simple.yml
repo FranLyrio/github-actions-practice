@@ -2,7 +2,7 @@ name: Shell Commands
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/1 * * * *"
 
 jobs:
   run-shell-command:
